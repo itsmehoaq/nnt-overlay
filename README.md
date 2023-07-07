@@ -1,26 +1,29 @@
-# 4wc-stream-overlay
+# NNT5 Stream Overlay (fork from 4WC by shdewz)
 
 ## OBS Setup
+
+### intro*
+| source           | url/path                        | width | height | x | y   |
+|------------------|---------------------------------|-------|--------|---|-----|
+| intro_overlay    | http://localhost:24050/intro/   | 1920  | 1080   | 0 | 0   |
+
+<sup>*data pulled from `_data/coming_up.json`, requires exchanging between matches</sup>
 
 ### main scene  
 | source        | url/path                     | width | height | x         | y         |
 |---------------|------------------------------|-------|--------|-----------|-----------|
 | vc_overlay*   |                              | 480   | 100    | 0         | 880       |
-| osu clients** |                              | 480   | 360    | see below | see below |
-| main_overlay  | http://localhost:24050/main/ | 1920  | 1080   | 0         | 0         |
+| osu clients** |                              | 960   | 360    | see below | see below |
+| main_overlay  | `http://localhost:24050/nnt-overlay/main/` | 1920  | 1080   | 0         | 0         |
 
 <sup>*url from discord, replace custom css with [vc.css](vc.css)</sup><br>
-<sup>**normal 4v4 placement according to the following table:</sup>
+<sup>**normal 2v2 placement according to the following table:</sup>
 | client | x    | y    |
 |--------|------|------|
 | 0      | 0    | 160  |
-| 1      | 480  | 160  |
-| 2      | 0    | 520  |
-| 3      | 480  | 520  |
-| 4      | 960  | 160  |
-| 5      | 1440 | 160  |
-| 6      | 960  | 520  |
-| 7      | 1440 | 520  |
+| 1      | 0    | 520  |
+| 2      | 960  | 160  |
+| 3      | 960  | 520  |
 
 ### mappool
 | source           | url/path                        | width | height | x | y   |
@@ -31,13 +34,6 @@
 
 <sup>*position changes per round depending on mappool size to center in the middle, try to line up manually</sup>
 
-### intro*
-| source           | url/path                        | width | height | x | y   |
-|------------------|---------------------------------|-------|--------|---|-----|
-| intro_overlay    | http://localhost:24050/intro/   | 1920  | 1080   | 0 | 0   |
-
-<sup>*data pulled from `_data/coming_up.json`, requires exchanging between matches</sup>
-
 ### winner
 | source           | url/path                        | width | height | x | y   |
 |------------------|---------------------------------|-------|--------|---|-----|
@@ -45,7 +41,7 @@
 
 Intro and winner scenes can also have the vc overlay bottom left if needed
 
-Add a **300ms `linear horizontal` luma wipe** transition between the scenes with **`0.05`** smoothness
+Add a **300ms `linear horizontal` luma wipe** transition between the scenes with **`0.05`** smoothness and enable **`invert`**
 
 ### Interacting with the mappool
 - Left click: left (red) team pick
