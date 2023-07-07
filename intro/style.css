@@ -1,30 +1,24 @@
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd.otf');
+	font-family: 'Nunito';
+	src: url('../_data/fonts/Nunito-Regular.ttf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd-Bold.otf');
+	font-family: 'Nunito';
+	src: url('../_data/fonts/Nunito-Bold.ttf');
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Medium.otf');
+	font-family: 'Courier Prime';
+	src: url('../_data/fonts/CourierPrime-Regular.ttf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Bold.otf');
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Black.otf');
+	font-family: 'Courier Prime';
+	src: url('../_data/fonts/CourierPrime-Bold.ttf');
 	font-weight: 700;
 }
 
@@ -33,7 +27,7 @@ html {
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
-	font-family: 'Courier';
+	font-family: 'Nunito';
 }
 
 #main {
@@ -44,6 +38,7 @@ html {
 }
 
 #coming-up {
+	font-family: 'Courier Prime';
 	position: absolute;
 	top: 360px;
 	height: 80px;
@@ -53,7 +48,7 @@ html {
 	font-weight: bold;
 	align-items: center;
 	justify-content: center;
-	color: #ff5663;
+	color: #FF9D7A;
 }
 
 #coming-up-text {
@@ -133,6 +128,7 @@ html {
 }
 
 .team-name {
+	font-family: 'Courier Prime';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 48px;
@@ -140,6 +136,7 @@ html {
 }
 
 .player {
+	font-weight: 700;
 	font-size: 30px;
 }
 
@@ -148,9 +145,9 @@ html {
 }
 
 #title {
-	font-family: 'Helvetica Now';
+	font-family: 'Nunito';
 	position: absolute;
-	color: #ff5663;
+	color: #FF9D7A;
 	bottom: 32px;
 	left: 36px;
 	text-align: left;

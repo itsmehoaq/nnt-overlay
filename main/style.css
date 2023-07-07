@@ -1,42 +1,24 @@
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd.otf');
+	font-family: 'Nunito';
+	src: url('../_data/fonts/Nunito-Regular.ttf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd-Bold.otf');
+	font-family: 'Nunito';
+	src: url('../_data/fonts/Nunito-Bold.ttf');
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Medium.otf');
+	font-family: 'Courier Prime';
+	src: url('../_data/fonts/CourierPrime-Regular.ttf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Bold.otf');
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Black.otf');
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: 'Mont';
-	src: url('../_data/fonts/Mont-SemiBold.otf');
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: 'Mont';
-	src: url('../_data/fonts/Mont-Bold.otf');
+	font-family: 'Courier Prime';
+	src: url('../_data/fonts/CourierPrime-Bold.ttf');
 	font-weight: 700;
 }
 
@@ -50,7 +32,7 @@ html {
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
-	font-family: 'Courier';
+	font-family: 'Nunito';
 }
 
 #main {
@@ -91,9 +73,9 @@ html {
 	z-index: 1;
 	letter-spacing: 1px;
 	font-weight: bold;
-	font-size: 48px;
+	font-size: 36px;
 	letter-spacing: 0px;
-	color: black;
+	color: #ff9d7a;
 	filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.1));
 }
 
@@ -103,8 +85,8 @@ html {
 	top: 40px;
 	transition: ease-in-out 500ms;
 	text-align: left;
-	color: #111111;
-	text-transform: uppercase;
+	color: #FF9D7A;
+	/* text-transform: uppercase; */
 }
 
 #blue-name {
@@ -112,8 +94,8 @@ html {
 	right: 222px;
 	top: 40px;
 	text-align: right;
-	color: #111111;
-	text-transform: uppercase;
+	color: #FF9D7A;
+	/* text-transform: uppercase; */
 }
 
 #red-points {
@@ -145,7 +127,7 @@ html {
 	background-color: none;
 	margin-right: 6px;
 	transition: 200ms ease;
-	border: 6px solid #111111;
+	border: 6px solid #ffffff;
 }
 
 .star-b {
@@ -155,7 +137,7 @@ html {
 	background-color: none;
 	margin-left: 6px;
 	transition: 200ms ease;
-	border: 6px solid #111111;
+	border: 6px solid #ffffff;
 }
 
 #red-flag {
@@ -202,7 +184,7 @@ html {
 	justify-content: center;
 	font-size: 52px;
 	text-align: center;
-	font-family: 'Mont';
+	font-family: 'Nunito';
 	font-variant-numeric: tabular-nums;
 	font-size: 44px;
 	opacity: 1;
@@ -212,7 +194,7 @@ html {
 	position: relative;
 	height: var(--footer-height);
 	background-image: url('../_data/assets/banner.png');
-	font-family: 'Helvetica Now';
+	font-family: 'Nunito';
 	width: 100%;
 	display: flex;
 }
@@ -247,7 +229,7 @@ html {
 	left: 50%;
 	transform: translateX(-50%);
 	padding: 2px 6px;
-	font-family: 'Mont';
+	font-family: 'Courier Prime';
 	font-variant-numeric: tabular-nums;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -398,14 +380,14 @@ html {
 
 .highlight {
 	font-size: 22px;
-	color: #ff5663;
+	color: #FF9D7A;
 	font-weight: 700;
 }
 
 .highlight i {
 	font-size: 14px;
 	vertical-align: super;
-	color: #ff5663;
+	color: #FF9D7A;
 	font-style: normal;
 }
 
@@ -414,7 +396,7 @@ html {
 }
 
 .highlight i polygon {
-	fill: #ff5663;
+	fill: #FF9D7A;
 }
 
 #chat-container {
@@ -431,9 +413,9 @@ html {
 	z-index: 2;
 	color: #f5f5f5;
 	background-color: rgba(0, 0, 0, 0.83);
-	border-left: 4px solid #ff5663;
+	border-left: 4px solid #FF9D7A;
 	overflow: hidden;
-	font-family: 'Helvetica Now';
+	font-family: 'Nunito';
 }
 
 #chat {
@@ -479,7 +461,7 @@ html {
 }
 
 .bot {
-	color: #ff5663;
+	color: #FF9D7A;
 	font-weight: bold;
 }
 
