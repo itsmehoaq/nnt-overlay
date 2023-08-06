@@ -84,8 +84,8 @@ window.setInterval(async () => {
 			if (mapid == parsedBeatmapID) {
 				let map_obj = mappool.beatmaps.find(m => m.beatmap_id == mapid);
 				if (map_obj?.identifier?.toUpperCase().includes('TB')) return -3;
-				if (flagRed && flagBlue) pick_flag.src = `https://assets.ppy.sh/old-flags/${cookieValue[1] === 'red' ? flagRed : flagBlue}.png`;
-				else pick_flag.src = `https://assets.ppy.sh/old-flags/XX.png`;
+				// if (flagRed && flagBlue) pick_flag.src = `https://assets.ppy.sh/old-flags/${cookieValue[1] === 'red' ? flagRed : flagBlue}.png`;
+				// else pick_flag.src = `https://assets.ppy.sh/old-flags/XX.png`;
 				pick_label.style.color = cookieValue[1] === 'red' ? '#ff8089' : '#94b6ff';
 				pick_label.style.opacity = 1;
 				return 0;
@@ -160,7 +160,8 @@ socket.onmessage = async event => {
 		cs.innerHTML = singlestat ? Math.round(stats.cs * 10) / 10 : `${data.menu.bm.stats.CS}<i><svg id="arrow" width="10" height="10" transform="rotate(270)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 40"><defs><style>.cls-1{fill:#fff;}</style></defs><polygon class="cls-1" points="15 40 0 40 15 20 0 0 15 0 30 20 15 40"/></svg>${stats.cs}</i>`;
 		ar.innerHTML = singlestat ? Math.round(stats.ar * 10) / 10 : `${data.menu.bm.stats.AR}<i><svg id="arrow" width="10" height="10" transform="rotate(270)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 40"><defs><style>.cls-1{fill:#fff;}</style></defs><polygon class="cls-1" points="15 40 0 40 15 20 0 0 15 0 30 20 15 40"/></svg>${stats.ar}</i>`;
 		od.innerHTML = singlestat ? Math.round(stats.od * 10) / 10 : `${data.menu.bm.stats.OD}<i><svg id="arrow" width="10" height="10" transform="rotate(270)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 40"><defs><style>.cls-1{fill:#fff;}</style></defs><polygon class="cls-1" points="15 40 0 40 15 20 0 0 15 0 30 20 15 40"/></svg>${stats.od}</i>`;
-		sr.innerHTML = `${map?.sr || data.menu.bm.stats.fullSR}★`;
+		// sr.innerHTML = `${map?.sr || data.menu.bm.stats.fullSR}★`;
+		sr.innerHTML = `${(map?.sr || data.menu.bm.stats.fullSR).toFixed(2)}★`;
 		bpm.innerHTML = map?.bpm || Math.round(stats.bpm * 10) / 10;
 
 		len_ = data.menu.bm.time.full - data.menu.bm.time.firstObj;
@@ -210,7 +211,7 @@ socket.onmessage = async event => {
 	if (starsRed !== data.tourney.manager.stars.left) {
 		starsRed = data.tourney.manager.stars.left;
 		for (let i = 1; i <= starsRed; i++) {
-			document.getElementById(`red${i}`).style.backgroundColor = '#111111';
+			document.getElementById(`red${i}`).style.backgroundColor = '#ff9d7a';
 		}
 		for (let i = starsRed + 1; i <= firstTo; i++) {
 			document.getElementById(`red${i}`).style.backgroundColor = 'unset';
@@ -219,7 +220,7 @@ socket.onmessage = async event => {
 	if (starsBlue !== data.tourney.manager.stars.right) {
 		starsBlue = data.tourney.manager.stars.right;
 		for (let i = 1; i <= starsBlue; i++) {
-			document.getElementById(`blue${i}`).style.backgroundColor = '#111111';
+			document.getElementById(`blue${i}`).style.backgroundColor = '#ff9d7a';
 		}
 		for (let i = starsBlue + 1; i <= firstTo; i++) {
 			document.getElementById(`blue${i}`).style.backgroundColor = 'unset';
@@ -247,7 +248,7 @@ socket.onmessage = async event => {
 
 	if (scoreVisible) {
 		let scores = [];
-		for (let i = 0; i < 8; i++) {
+		for (let i = 0; i < 4; i++) {
 			let score = data.tourney.ipcClients[i]?.gameplay?.score || 0;
 			if (data.tourney.ipcClients[i]?.gameplay?.mods?.str?.toUpperCase().includes('EZ')) score *= 1.6;
 			scores.push({ id: i, score });
@@ -255,8 +256,8 @@ socket.onmessage = async event => {
 
 		// scoreRed = 665624;
 		// scoreBlue = 434765;
-		scoreRed = scores.filter(s => s.id <= 3).map(s => s.score).reduce((a, b) => a + b);
-		scoreBlue = scores.filter(s => s.id >= 4).map(s => s.score).reduce((a, b) => a + b);
+		scoreRed = scores.filter(s => s.id <= 1).map(s => s.score).reduce((a, b) => a + b);
+		scoreBlue = scores.filter(s => s.id >= 2).map(s => s.score).reduce((a, b) => a + b);
 		let scorediff = Math.abs(scoreRed - scoreBlue);
 
 		animation.red_score.update(scoreRed);

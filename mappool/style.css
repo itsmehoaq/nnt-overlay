@@ -1,30 +1,30 @@
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd.otf');
+	font-family: 'Azeret Mono';
+	src: url('../_data/fonts/AzeretMono-Regular.otf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Courier';
-	src: url('../_data/fonts/CourierStd-Bold.otf');
+	font-family: 'Azeret Mono';
+	src: url('../_data/fonts/AzeretMono-Bold.otf');
 	font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Medium.otf');
+	font-family: 'Torus';
+	src: url('../_data/fonts/Torus-Regular.otf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Bold.otf');
+	font-family: 'Torus';
+	src: url('../_data/fonts/Torus-Bold.otf');
 	font-weight: 500;
 }
 
 @font-face {
-	font-family: 'Helvetica Now';
-	src: url('../_data/fonts/HelveticaNowText-Black.otf');
+	font-family: 'Torus';
+	src: url('../_data/fonts/Torus-Heavy.otf');
 	font-weight: 700;
 }
 
@@ -42,7 +42,7 @@ html {
 
 #main {
     font-size: 24px;
-    font-family: 'Helvetica Now';
+    font-family: 'Torus';
     font-weight: normal;
     color: white;
     width: 1920px;
@@ -126,7 +126,7 @@ html {
 
 .pickingStatus {
     position: absolute;
-    font-family: 'Courier';
+    font-family: 'Azeret Mono';
     text-transform: uppercase;
     letter-spacing: -1px;
     top: 0;
@@ -195,7 +195,7 @@ html {
     line-height: 41px;
     text-align: center;
     transition: ease-in-out 200ms;
-    font-family: 'Courier';
+    font-family: 'Azeret Mono';
 }
 
 .icon-nm {
@@ -297,7 +297,7 @@ html {
     width: 240px;
     height: 40px;
     margin-bottom: 12px;
-    font-family: 'Helvetica Now';
+    font-family: 'Torus';
     font-size: 22px;
     display: flex;
     text-align: center;

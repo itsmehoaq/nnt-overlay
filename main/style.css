@@ -1,24 +1,35 @@
 @font-face {
 	font-family: 'Nunito';
-	src: url('../_data/fonts/Nunito-Regular.ttf');
-	font-weight: 400;
+	src: url('../_data/fonts/Nunito-Medium.ttf');
+	font-weight: 500;
 }
 
 @font-face {
 	font-family: 'Nunito';
-	src: url('../_data/fonts/Nunito-Bold.ttf');
-	font-weight: 700;
+	src: url('../_data/fonts/Nunito-ExtraBold.ttf');
+	font-weight: 800;
 }
-
 @font-face {
-	font-family: 'Courier Prime';
-	src: url('../_data/fonts/CourierPrime-Regular.ttf');
+	font-family: 'Torus';
+	src: url('../_data/fonts/Torus-Regular.ttf');
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Courier Prime';
-	src: url('../_data/fonts/CourierPrime-Bold.ttf');
+	font-family: 'Torus';
+	src: url('../_data/fonts/Torus-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Azeret Mono';
+	src: url('../_data/fonts/AzeretMono-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Azeret Mono';
+	src: url('../_data/fonts/AzeretMono-Bold.ttf');
 	font-weight: 700;
 }
 
@@ -32,7 +43,7 @@ html {
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
-	font-family: 'Nunito';
+	font-family: 'Torus';
 }
 
 #main {
@@ -80,8 +91,9 @@ html {
 }
 
 #red-name {
+	font-family: 'Nunito';
 	position: absolute;
-	left: 222px;
+	left: 140px;
 	top: 40px;
 	transition: ease-in-out 500ms;
 	text-align: left;
@@ -90,8 +102,9 @@ html {
 }
 
 #blue-name {
+	font-family: 'Nunito';
 	position: absolute;
-	right: 222px;
+	right: 140px;
 	top: 40px;
 	text-align: right;
 	color: #FF9D7A;
@@ -100,7 +113,7 @@ html {
 
 #red-points {
 	position: absolute;
-	left: 219px;
+	left: 139px;
 	top: 80px;
 	display: flex;
 	flex-direction: row;
@@ -111,7 +124,7 @@ html {
 
 #blue-points {
 	position: absolute;
-	right: 219px;
+	right: 139px;
 	top: 80px;
 	display: flex;
 	flex-direction: row-reverse;
@@ -127,7 +140,7 @@ html {
 	background-color: none;
 	margin-right: 6px;
 	transition: 200ms ease;
-	border: 6px solid #ffffff;
+	border: 6px solid #ff9d7a;
 }
 
 .star-b {
@@ -137,10 +150,10 @@ html {
 	background-color: none;
 	margin-left: 6px;
 	transition: 200ms ease;
-	border: 6px solid #ffffff;
+	border: 6px solid #ff9d7a;
 }
 
-#red-flag {
+/* #red-flag {
 	position: absolute;
 	width: 70px;
 	height: 47px;
@@ -156,7 +169,7 @@ html {
 	right: 40px;
 	top: 58px;
 	visibility: hidden;
-}
+} */
 
 #gameplay-area {
 	width: 100%;
@@ -184,7 +197,7 @@ html {
 	justify-content: center;
 	font-size: 52px;
 	text-align: center;
-	font-family: 'Nunito';
+	font-family: 'Torus';
 	font-variant-numeric: tabular-nums;
 	font-size: 44px;
 	opacity: 1;
@@ -194,31 +207,33 @@ html {
 	position: relative;
 	height: var(--footer-height);
 	background-image: url('../_data/assets/banner.png');
-	font-family: 'Nunito';
+	font-family: 'Torus';
 	width: 100%;
 	display: flex;
 }
 
 #score-red {
+	font-family: 'Azeret Mono';
 	width: 300px;
 	height: 100%;
 	padding-right: 12px;
 	display: flex;
 	align-items: center;
 	font-size: 1em;
-	color: #111111;
+	color: #ff9d7a;
 	text-align: right;
 	justify-content: flex-end;
 }
 
 #score-blue {
+	font-family: 'Azeret Mono';
 	width: 300px;
 	height: 100%;
 	padding-left: 12px;
 	display: flex;
 	align-items: center;
 	font-size: 1em;
-	color: #111111;
+	color: #ff9d7a;
 	text-align: left;
 	justify-content: flex-start;
 }
@@ -228,14 +243,14 @@ html {
 	height: 24px;
 	left: 50%;
 	transform: translateX(-50%);
-	padding: 2px 6px;
-	font-family: 'Courier Prime';
+	padding: 0px 6px;
+	font-family: 'Azeret Mono';
 	font-variant-numeric: tabular-nums;
 	font-size: 1.2em;
 	font-weight: bold;
 	letter-spacing: -1px;
-	bottom: 100px;
-	color: #111111;
+	bottom: 109px;
+	color: #ff9d7a;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -267,7 +282,7 @@ html {
 	left: unset;
 	height: 18px;
 	width: 0px;
-	background-color: #111111;
+	background-color: #ff9d7a;
 	transition: ease-out 300ms;
 }
 
@@ -304,19 +319,19 @@ html {
 
 #picked-by-label span {
 	width: 100%;
-	height: 60px;
+	height: 100%;
 	margin-left: 7px;
 	transform: rotate(180deg);
 }
 
-#picked-by-flag {
+/* #picked-by-flag {
 	transform: rotate(270deg);
 	position: absolute;
 	bottom: 12px;
 	left: 0px;
 	width: calc(70px / 2);
 	filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
-}
+} */
 
 #stats-container {
 	width: var(--bottom-width);
@@ -415,7 +430,7 @@ html {
 	background-color: rgba(0, 0, 0, 0.83);
 	border-left: 4px solid #FF9D7A;
 	overflow: hidden;
-	font-family: 'Nunito';
+	font-family: 'Torus';
 }
 
 #chat {

@@ -26,7 +26,7 @@ let comingup, teams, mappool;
 	let team_red = teams.find(t => t.name == comingup.red_team);
 	if (team_red) {
 		document.getElementById('red-team').innerHTML = team_red.name;
-		document.getElementById('red-flag').src = `https://assets.ppy.sh/old-flags/${team_red.flag}.png`;
+		// document.getElementById('red-flag').src = `https://assets.ppy.sh/old-flags/${team_red.flag}.png`;
 		for (let i = 0; i < 8; i++) {
 			let player = team_red.players[i]?.username || '';
 			document.getElementById(`red-player-${i + 1}`).innerHTML = player;
@@ -36,7 +36,7 @@ let comingup, teams, mappool;
 	let team_blue = teams.find(t => t.name == comingup.blue_team);
 	if (team_blue) {
 		document.getElementById('blue-team').innerHTML = team_blue.name;
-		document.getElementById('blue-flag').src = `https://assets.ppy.sh/old-flags/${team_blue.flag}.png`;
+		// document.getElementById('blue-flag').src = `https://assets.ppy.sh/old-flags/${team_blue.flag}.png`;
 		for (let i = 0; i < 8; i++) {
 			let player = team_blue.players[i]?.username || '';
 			document.getElementById(`blue-player-${i + 1}`).innerHTML = player;

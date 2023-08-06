@@ -128,7 +128,8 @@ html {
 }
 
 .team-name {
-	font-family: 'Courier Prime';
+	font-family: 'Nunito';
+	color: #FF9D7A;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 48px;
