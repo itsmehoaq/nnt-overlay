@@ -5,7 +5,7 @@
 ### intro*
 | source           | url/path                        | width | height | x | y   |
 |------------------|---------------------------------|-------|--------|---|-----|
-| intro_overlay    | http://localhost:24050/intro/   | 1920  | 1080   | 0 | 0   |
+| intro_overlay    | `http://localhost:24050/nnt-overlay/intro/`   | 1920  | 1080   | 0 | 0   |
 
 <sup>*data pulled from `_data/coming_up.json`, requires exchanging between matches</sup>
 
@@ -29,15 +29,15 @@
 | source           | url/path                        | width | height | x | y   |
 |------------------|---------------------------------|-------|--------|---|-----|
 | vc_overlay       |                                 | 480   | 100    | 0 | 880 |
-| mappool_overlay* | http://localhost:24050/mappool/ | 2320  | 700    | 0 | 220 |
-| main_overlay     | http://localhost:24050/main/    | 1920  | 1080   | 0 | 0   |
+| mappool_overlay* | `http://localhost:24050/nnt-overlay/mappool/` | 2320  | 700    | 0 | 220 |
+| main_overlay     | `http://localhost:24050/nnt-overlay/main/`    | 1920  | 1080   | 0 | 0   |
 
 <sup>*position changes per round depending on mappool size to center in the middle, try to line up manually</sup>
 
 ### winner
 | source           | url/path                        | width | height | x | y   |
 |------------------|---------------------------------|-------|--------|---|-----|
-| winner_overlay   | http://localhost:24050/winner/  | 1920  | 1080   | 0 | 0   |
+| winner_overlay   | `http://localhost:24050/nnt-overlay/winner/`  | 1920  | 1080   | 0 | 0   |
 
 Intro and winner scenes can also have the vc overlay bottom left if needed
 
