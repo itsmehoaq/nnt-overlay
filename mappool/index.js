@@ -183,7 +183,7 @@ const pickMap = (bm, teamName, color) => {
     setTimeout(() => {
         bm.pickedStatus.style.opacity = 1;
         bm.pickedStatus.style.outline = bm.mods.includes('TB') ? '3px solid #ffffff' : `3px solid ${color == 'Red' ? '#ff8d8d' : '#93b5ff'}`;
-        bm.pickedStatus.innerHTML = bm.mods.includes('TB') ? 'Tiebreaker' : `<b class="pick${color}">${teamName}</b> pick`;
+        bm.pickedStatus.innerHTML = bm.mods.includes('TB') ? 'Tiebreaker' : `<b class="pick${color}">${color} Team</b> pick`;
     }, 300);
 }
 
@@ -202,7 +202,7 @@ const banMap = (bm, teamName, color) => {
     setTimeout(() => {
         bm.pickedStatus.style.opacity = 1;
         bm.pickedStatus.style.outline = 'none';
-        bm.pickedStatus.innerHTML = `<b class="pick${color}">${teamName}</b> ban`;
+        bm.pickedStatus.innerHTML = `<b class="pick${color}">${color} Team</b> ban`;
     }, 300);
 }
 
