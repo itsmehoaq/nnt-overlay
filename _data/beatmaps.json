@@ -1,0 +1,120 @@
+{
+    "stage": "Round of 16",
+    "abbreviation": "RO16",
+    "beatmaps": [
+        {
+            "beatmap_id": 2839123,
+            "identifier": "NM1",
+            "mods": "NM",
+            "sr": 6.43156
+        },
+        {
+            "beatmap_id": 3951649,
+            "identifier": "NM2",
+            "mods": "NM",
+            "sr": 6.28966
+        },
+        {
+            "beatmap_id": 2633136,
+            "identifier": "NM3",
+            "mods": "NM",
+            "sr": 6.17348
+        },
+        {
+            "beatmap_id": 3276740,
+            "identifier": "NM4",
+            "mods": "NM",
+            "sr": 6.13859
+        },
+        {
+            "beatmap_id": 3641172,
+            "identifier": "NM5",
+            "mods": "NM",
+            "sr": 6.25496
+        },
+        {
+            "beatmap_id": 3330967,
+            "identifier": "HD1",
+            "mods": "HD",
+            "sr": 6.24784
+        },
+        {
+            "beatmap_id": 4033979,
+            "identifier": "HD2",
+            "mods": "HD",
+            "sr": 5.18742
+        },
+        {
+            "beatmap_id": 3742040,
+            "identifier": "HD3",
+            "mods": "HD",
+            "sr": 5.82064
+        },
+        {
+            "beatmap_id": 3749455,
+            "identifier": "HR1",
+            "mods": "HR",
+            "sr": 6.47612
+        },
+        {
+            "beatmap_id": 2132761,
+            "identifier": "HR2",
+            "mods": "HR",
+            "sr": 5.94295
+        },
+        {
+            "beatmap_id": 3502295,
+            "identifier": "HR3",
+            "mods": "HR",
+            "sr": 6.30886
+        },
+        {
+            "beatmap_id": 3960373,
+            "identifier": "DT1",
+            "mods": "DT",
+            "sr": 6.48139
+        },
+        {
+            "beatmap_id": 2898272,
+            "identifier": "DT2",
+            "mods": "DT",
+            "sr": 6.35834
+        },
+        {
+            "beatmap_id": 3171574,
+            "identifier": "DT3",
+            "mods": "DT",
+            "sr": 6.00891
+        },
+        {
+            "beatmap_id": 95895,
+            "identifier": "DT4",
+            "mods": "DT",
+            "sr": 6.39025
+        },
+        {
+            "beatmap_id": 3830777,
+            "identifier": "FM1",
+            "mods": "FM",
+            "sr": 6.20248
+        },
+        {
+            "beatmap_id": 2433110,
+            "identifier": "FM2",
+            "mods": "FM",
+            "sr": 5.85154
+        },
+        {
+            "beatmap_id": 3543489,
+            "identifier": "FM3",
+            "mods": "FM",
+            "sr": 6.10079
+        },
+        {
+            "beatmap_id": 3506560,
+            "identifier": "TB1",
+            "mods": "TB",
+            "sr": 6.39592
+        }
+    ]
+}
