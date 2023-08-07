@@ -52,8 +52,6 @@ Add a **300ms `linear horizontal` luma wipe** transition between the scenes with
 ## Other
 
 ### `_data` folder
-
-Not included here. Contains the following items:
 - `teams.json` - list of teams, static
 - `beatmaps.json` - simple beatmap list, exchanged weekly
 - `beatmap_data.json` - full beatmap data for mappool screen, exchanged weekly
