@@ -68,7 +68,7 @@ ul {
 }
 
 [class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class*="Voice_avatarSpeaking"] + [class^="Voice_user"] {
-    background-color: #ff5663 !important;
+    background-color: #ff9e7b !important;
 }
 
 [class^="Voice_voiceContainer"] [class^="Voice_voiceStates"] [class^="Voice_voiceState"] [class^="Voice_user"] [class^="Voice_name"] {
