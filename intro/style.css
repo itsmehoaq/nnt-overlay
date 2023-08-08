@@ -1,182 +1,198 @@
 @font-face {
-	font-family: 'Nunito';
-	src: url('../_data/fonts/Nunito-Regular.ttf');
-	font-weight: 400;
+  font-family: "Nunito";
+  src: url("../_data/fonts/Nunito-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Nunito';
-	src: url('../_data/fonts/Nunito-Bold.ttf');
-	font-weight: 700;
+  font-family: "Nunito";
+  src: url("../_data/fonts/Nunito-Bold.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-	font-family: 'Courier Prime';
-	src: url('../_data/fonts/CourierPrime-Regular.ttf');
-	font-weight: 400;
+  font-family: "Azeret Mono";
+  src: url("../_data/fonts/AzeretMono-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-	font-family: 'Courier Prime';
-	src: url('../_data/fonts/CourierPrime-Bold.ttf');
-	font-weight: 700;
+  font-family: "Azeret Mono";
+  src: url("../_data/fonts/AzeretMono-Bold.ttf");
+  font-weight: 700;
 }
 
 body,
 html {
-	padding: 0;
-	margin: 0;
-	overflow-y: hidden;
-	font-family: 'Nunito';
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+  font-family: "Nunito";
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #main {
-	width: 1920px;
-	height: 1080px;
-	position: relative;
-	background-image: url('../_data/assets/base-bg-ro32.png');
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  background-image: url("../_data/assets/base-bg-ro32.png");
 }
 
 #coming-up {
-	font-family: 'Courier Prime';
-	position: absolute;
-	top: 360px;
-	height: 80px;
-	width: 100%;
-	text-align: left;
-	display: flex;
-	font-weight: bold;
-	align-items: center;
-	justify-content: center;
-	color: #FF9D7A;
+  font-family: "Azeret Mono";
+  position: absolute;
+  top: 360px;
+  height: 80px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  color: #ff9d7a;
 }
 
 #coming-up-text {
-	font-size: 48px;
+  font-size: 48px;
 }
 
 #coming-up h3 {
-	font-size: 30px;
-	line-height: 72px;
-	margin-top: 16px;
-	padding-left: 18px;
-	opacity: 0.2;
+  font-size: 30px;
+  line-height: 72px;
+  margin-top: 16px;
+  padding-left: 18px;
+  opacity: 0.2;
 }
 
 #header {
-	width: 1920px;
-	height: 100px;
-	opacity: 100%;
-	letter-spacing: 1px;
-	font-size: 36px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #ffffff;
+  width: 1920px;
+  height: 100px;
+  opacity: 100%;
+  letter-spacing: 1px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
 }
 
 #full-overlay {
-	width: 1920px;
-	height: 1080px;
-	background-size: cover;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
 }
 
 #team-container {
-	position: absolute;
-	top: 450px;
-	height: 300px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
+  position: absolute;
+  top: 450px;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .team {
-	display: flex;
-	color: #111111;
-	font-weight: bold;
+  display: flex;
+  color: #111111;
+  font-weight: bold;
 }
 
 .team.vs {
-	width: 70px;
-	height: 44px;
-	opacity: 0.5;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 30px;
+  width: 70px;
+  height: 44px;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+
+  transform: translateY(8px);
 }
 
 .flag-col {
-	width: 70px;
-	height: 47px;
+  width: 70px;
+  height: 47px;
 }
 
 .flag-col.red {
-	margin-right: 24px;
+  margin-right: 24px;
 }
 
 .flag-col.blue {
-	margin-left: 24px;
+  margin-left: 24px;
 }
 
 .player-col.red {
-	margin-right: 18px;
+  margin-right: 18px;
 }
 
 .player-col.blue {
-	margin-left: 18px;
+  margin-left: 18px;
 }
 
 .team-name {
-	font-family: 'Nunito';
-	color: #FF9D7A;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 48px;
-	margin-bottom: 16px;
+  font-family: "Nunito";
+  color: #ff9d7a;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin-bottom: 16px;
 }
 
 .player {
-	font-weight: 700;
-	font-size: 30px;
+  font-weight: 700;
+  font-size: 30px;
 }
 
+/* .player.red {
+  color: #fbbccc;
+}
+
+.player.blue {
+  color: #dcf0fa;
+} */
+
 .blue {
-	text-align: right;
+  text-align: right;
 }
 
 #title {
-	font-family: 'Nunito';
-	position: absolute;
-	color: #FF9D7A;
-	bottom: 32px;
-	left: 36px;
-	text-align: left;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 1px;
-	font-size: 22px;
+  font-family: "Nunito";
+  position: absolute;
+  color: #ff9d7a;
+  bottom: 32px;
+  left: 36px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 22px;
 }
 
 #note {
-	margin-right: 6px;
+  margin-right: 6px;
 }
 
 /*Scrollbar*/
 ::-webkit-scrollbar {
-	width: 0px;
-	visibility: 0;
+  width: 0px;
+  visibility: 0;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	margin-top: 25px;
-	margin-bottom: 25px;
-	visibility: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  visibility: 0;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: grey;
-	border-radius: 10px;
+  background: grey;
+  border-radius: 10px;
 }

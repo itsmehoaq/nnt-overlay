@@ -232,16 +232,16 @@ socket.onmessage = async event => {
 		red_name.innerHTML = nameRed;
 		let team = teams.find(t => t.name == nameRed);
 		flagRed = team?.flag || null;
-		if (flagRed) { red_flag.src = `https://assets.ppy.sh/old-flags/${flagRed}.png`; red_flag.style.visibility = 'visible' }
-		else red_flag.style.visibility = 'hidden';
+		// if (flagRed) { red_flag.src = `https://assets.ppy.sh/old-flags/${flagRed}.png`; red_flag.style.visibility = 'visible' }
+		// else red_flag.style.visibility = 'hidden';
 	}
 	if (teams && nameBlue !== data.tourney.manager.teamName.right && data.tourney.manager.teamName.right) {
 		nameBlue = data.tourney.manager.teamName.right || 'Blue Team';
 		blue_name.innerHTML = nameBlue;
 		let team = teams.find(t => t.name == nameBlue);
 		flagBlue = team?.flag || null;
-		if (flagBlue) { blue_flag.src = `https://assets.ppy.sh/old-flags/${flagBlue}.png`; blue_flag.style.visibility = 'visible' }
-		else blue_flag.style.visibility = 'hidden';
+		// if (flagBlue) { blue_flag.src = `https://assets.ppy.sh/old-flags/${flagBlue}.png`; blue_flag.style.visibility = 'visible' }
+		// else blue_flag.style.visibility = 'hidden';
 	}
 
 	let now = Date.now();
@@ -313,9 +313,9 @@ socket.onmessage = async event => {
 		}
 	}
 	if (!scoreVisible) {
-		if (chatLen != data.tourney.manager.chat.length) {
+		if (chatLen != (data.tourney.manager.chat?.length ?? 0)) {
 
-			if (chatLen == 0 || (chatLen > 0 && chatLen > data.tourney.manager.chat.length)) { chat.innerHTML = ''; chatLen = 0; }
+			if (chatLen == 0 || (chatLen > 0 && chatLen > (data.tourney.manager.chat?.length ?? 0))) { chat.innerHTML = ''; chatLen = 0; }
 
 			for (let i = chatLen; i < data.tourney.manager.chat.length; i++) {
 				tempClass = data.tourney.manager.chat[i].team;

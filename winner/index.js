@@ -34,8 +34,8 @@ socket.onmessage = event => {
 		let blue_team = teams.find(t => t.name === (data.tourney.manager.teamName.right));
 
 		if (red_team && blue_team) {
-			document.getElementById('flag-red').src = `https://assets.ppy.sh/old-flags/${red_team.flag}.png`;
-			document.getElementById('flag-blue').src = `https://assets.ppy.sh/old-flags/${blue_team.flag}.png`;
+			// document.getElementById('flag-red').src = `https://assets.ppy.sh/old-flags/${red_team.flag}.png`;
+			// document.getElementById('flag-blue').src = `https://assets.ppy.sh/old-flags/${blue_team.flag}.png`;
 			document.getElementById('score-red').innerHTML = points_r;
 			document.getElementById('score-blue').innerHTML = points_b;
 			document.getElementById('team-row').innerHTML = points_r > points_b ? red_team.name : blue_team.name;
