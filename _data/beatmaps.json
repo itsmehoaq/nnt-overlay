@@ -1,120 +1,120 @@
 {
-    "stage": "Round of 16",
+    "stage": "Quarterfinals",
     "abbreviation": "QF",
     "beatmaps": [
         {
-            "beatmap_id": 2839123,
+            "beatmap_id": 3053830,
             "identifier": "NM1",
             "mods": "NM",
-            "sr": 6.43156
+            "sr": 6.71936
         },
         {
-            "beatmap_id": 3951649,
+            "beatmap_id": 3754398,
             "identifier": "NM2",
             "mods": "NM",
-            "sr": 6.28966
+            "sr": 6.72229
         },
         {
-            "beatmap_id": 2633136,
+            "beatmap_id": 3929092,
             "identifier": "NM3",
             "mods": "NM",
-            "sr": 6.17348
+            "sr": 6.32024
         },
         {
-            "beatmap_id": 3276740,
+            "beatmap_id": 3783723,
             "identifier": "NM4",
             "mods": "NM",
-            "sr": 6.13859
+            "sr": 6.43703
         },
         {
-            "beatmap_id": 3641172,
+            "beatmap_id": 3243434,
             "identifier": "NM5",
             "mods": "NM",
-            "sr": 6.25496
+            "sr": 5.90918
         },
         {
-            "beatmap_id": 3330967,
+            "beatmap_id": 2908440,
             "identifier": "HD1",
             "mods": "HD",
-            "sr": 6.24784
+            "sr": 6.5653
         },
         {
-            "beatmap_id": 4033979,
+            "beatmap_id": 2877776,
             "identifier": "HD2",
             "mods": "HD",
-            "sr": 5.18742
+            "sr": 5.39893
         },
         {
-            "beatmap_id": 3742040,
+            "beatmap_id": 3522486,
             "identifier": "HD3",
             "mods": "HD",
-            "sr": 5.82064
+            "sr": 6.30731
         },
         {
-            "beatmap_id": 3749455,
+            "beatmap_id": 2349543,
             "identifier": "HR1",
             "mods": "HR",
-            "sr": 6.47612
+            "sr": 6.58162
         },
         {
-            "beatmap_id": 2132761,
+            "beatmap_id": 3534849,
             "identifier": "HR2",
             "mods": "HR",
-            "sr": 5.94295
+            "sr": 6.3599
         },
         {
-            "beatmap_id": 3502295,
+            "beatmap_id": 3411547,
             "identifier": "HR3",
             "mods": "HR",
-            "sr": 6.30886
+            "sr": 6.40904
         },
         {
-            "beatmap_id": 3960373,
+            "beatmap_id": 1894827,
             "identifier": "DT1",
             "mods": "DT",
-            "sr": 6.48139
+            "sr": 6.82788
         },
         {
-            "beatmap_id": 2898272,
+            "beatmap_id": 3976807,
             "identifier": "DT2",
             "mods": "DT",
-            "sr": 6.35834
+            "sr": 6.68483
         },
         {
-            "beatmap_id": 3171574,
+            "beatmap_id": 373792,
             "identifier": "DT3",
             "mods": "DT",
-            "sr": 6.00891
+            "sr": 6.87579
         },
         {
-            "beatmap_id": 95895,
+            "beatmap_id": 3623916,
             "identifier": "DT4",
             "mods": "DT",
-            "sr": 6.39025
+            "sr": 6.54132
         },
         {
-            "beatmap_id": 3830777,
+            "beatmap_id": 3033662,
             "identifier": "FM1",
             "mods": "FM",
-            "sr": 6.20248
+            "sr": 6.60189
         },
         {
-            "beatmap_id": 2433110,
+            "beatmap_id": 3045587,
             "identifier": "FM2",
             "mods": "FM",
-            "sr": 5.85154
+            "sr": 5.68986
         },
         {
-            "beatmap_id": 3543489,
+            "beatmap_id": 3863692,
             "identifier": "FM3",
             "mods": "FM",
-            "sr": 6.10079
+            "sr": 6.37797
         },
         {
-            "beatmap_id": 3506560,
+            "beatmap_id": 2552930,
             "identifier": "TB1",
             "mods": "TB",
-            "sr": 6.39592
+            "sr": 6.73622
         }
     ]
 }
