@@ -1,120 +1,120 @@
 {
-    "stage": "Semifinals",
-    "abbreviation": "SF",
+    "stage": "Finals",
+    "abbreviation": "F",
     "beatmaps": [
         {
-            "beatmap_id": 3114646,
+            "beatmap_id": 3515987,
             "identifier": "NM1",
             "mods": "NM",
-            "sr": 6.89621
+            "sr": 7.06403
         },
         {
-            "beatmap_id": 3524634,
+            "beatmap_id": 3967225,
             "identifier": "NM2",
             "mods": "NM",
-            "sr": 6.83166
+            "sr": 7.08262
         },
         {
-            "beatmap_id": 3871698,
+            "beatmap_id": 3454190,
             "identifier": "NM3",
             "mods": "NM",
-            "sr": 6.45896
+            "sr": 6.67029
         },
         {
-            "beatmap_id": 1993172,
+            "beatmap_id": 3845085,
             "identifier": "NM4",
             "mods": "NM",
-            "sr": 6.69412
+            "sr": 6.66664
         },
         {
-            "beatmap_id": 3668781,
+            "beatmap_id": 3257371,
             "identifier": "NM5",
             "mods": "NM",
-            "sr": 5.89548
+            "sr": 6.37873
         },
         {
-            "beatmap_id": 3647939,
+            "beatmap_id": 3216819,
             "identifier": "HD1",
             "mods": "HD",
-            "sr": 6.6988
+            "sr": 6.90816
         },
         {
-            "beatmap_id": 3928631,
+            "beatmap_id": 3007644,
             "identifier": "HD2",
             "mods": "HD",
-            "sr": 5.73158
+            "sr": 6.02017
         },
         {
-            "beatmap_id": 1694395,
+            "beatmap_id": 2579159,
             "identifier": "HD3",
             "mods": "HD",
-            "sr": 6.53946
+            "sr": 6.67445
         },
         {
-            "beatmap_id": 3992315,
+            "beatmap_id": 3321959,
             "identifier": "HR1",
             "mods": "HR",
-            "sr": 6.83682
+            "sr": 7.11228
         },
         {
-            "beatmap_id": 3059881,
+            "beatmap_id": 2659351,
             "identifier": "HR2",
             "mods": "HR",
-            "sr": 6.35385
+            "sr": 6.69746
         },
         {
-            "beatmap_id": 3802913,
+            "beatmap_id": 3879314,
             "identifier": "HR3",
             "mods": "HR",
-            "sr": 6.43093
+            "sr": 7.01397
         },
         {
-            "beatmap_id": 229676,
+            "beatmap_id": 1901052,
             "identifier": "DT1",
             "mods": "DT",
-            "sr": 6.91823
+            "sr": 6.92747
         },
         {
-            "beatmap_id": 1559749,
+            "beatmap_id": 92762,
             "identifier": "DT2",
             "mods": "DT",
-            "sr": 6.70369
+            "sr": 7.09341
         },
         {
-            "beatmap_id": 2980850,
+            "beatmap_id": 2709076,
             "identifier": "DT3",
             "mods": "DT",
-            "sr": 6.63179
+            "sr": 6.9184
         },
         {
-            "beatmap_id": 2827835,
+            "beatmap_id": 43423,
             "identifier": "DT4",
             "mods": "DT",
-            "sr": 6.45348
+            "sr": 6.749
         },
         {
-            "beatmap_id": 3325902,
+            "beatmap_id": 3868590,
             "identifier": "FM1",
             "mods": "FM",
-            "sr": 6.61305
+            "sr": 6.89609
         },
         {
-            "beatmap_id": 3711613,
+            "beatmap_id": 1125657,
             "identifier": "FM2",
             "mods": "FM",
-            "sr": 5.75779
+            "sr": 6.09131
         },
         {
-            "beatmap_id": 3845724,
+            "beatmap_id": 4201650,
             "identifier": "FM3",
             "mods": "FM",
-            "sr": 6.10866
+            "sr": 6.59155
         },
         {
-            "beatmap_id": 4083586,
+            "beatmap_id": 4151497,
             "identifier": "TB1",
             "mods": "TB",
-            "sr": 7.14448
+            "sr": 7.31764
         }
     ]
 }
